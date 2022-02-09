@@ -1,0 +1,50 @@
+{
+  "name": "open-sauced-catsup-app-test",
+  "version": "0.0.0-development",
+  "private": true,
+  "description": "This app alerts you of good first issues.",
+  "author": "Brian 'bdougie' Douglas <ilikerobot@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "homepage": "https://github.com/0-vortex/open-sauced-catsup-app-test",
+  "bugs": {
+    "url": "https://github.com/0-vortex/open-sauced-catsup-app-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0-vortex/open-sauced-catsup-app-test.git"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "scripts": {
+    "push": "npx @open-sauced/conventional-commit",
+    "start": "npx probot run ./src/index.js",
+    "test": "npx jest",
+    "lint": "eslint --report-unused-disable-directives .",
+    "format": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "probot": "^12.2.1"
+  },
+  "devDependencies": {
+    "@open-sauced/check-engines": "^1.2.0",
+    "@open-sauced/conventional-commit": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.0",
+    "jest": "^27.5.1",
+    "nock": "^13.2.4",
+    "smee-client": "^1.2.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
