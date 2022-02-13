@@ -10,6 +10,7 @@
     "github",
     "probot-app"
   ],
+  "main": "./src/index.js",
   "homepage": "https://github.com/0-vortex/open-sauced-catsup-app-test",
   "bugs": {
     "url": "https://github.com/0-vortex/open-sauced-catsup-app-test/issues"
@@ -23,12 +24,16 @@
   },
   "scripts": {
     "push": "npx @open-sauced/conventional-commit",
-    "start": "npx probot run ./src/index.js",
+    "wrangler": "npx wrangler",
+    "start": "npm run wrangler -- dev",
+    "build": "npm run wrangler -- build",
+    "deploy": "npm run wrangler -- publish",
     "test": "npx jest",
     "lint": "eslint --report-unused-disable-directives .",
     "format": "npm run lint -- --fix"
   },
   "dependencies": {
+    "@octokit/app": "^12.0.5",
     "node-fetch": "^2.6.7",
     "probot": "^12.2.1"
   },

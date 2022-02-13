@@ -1,0 +1,18 @@
+name = "open-sauced-catsup-app-test"
+type = "webpack"
+account_id = "4ae2b0231430be3b4de63e32381d6513"
+route = ""
+zone_id = ""
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-02-09"
+vars = { ENVIRONMENT = "dev" }
+
+[dev]
+ip = "0.0.0.0"
+port = 3000
+local_protocol="http"
+upstream_protocol="https"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
