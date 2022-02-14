@@ -1,8 +1,7 @@
 name = "open-sauced-catsup-app-test"
 type = "webpack"
 account_id = "4ae2b0231430be3b4de63e32381d6513"
-route = ""
-zone_id = ""
+workers_dev = true
 compatibility_flags = []
 compatibility_date = "2022-02-09"
 
@@ -11,9 +10,6 @@ ip = "0.0.0.0"
 port = 3000
 local_protocol="http"
 upstream_protocol="https"
-
-[env.development]
-workers_dev = true
 
 [env.development.vars]
 DISCORD_URL = "https://discord.com/api/webhooks/942554263639429131/wFa0nbtOSERf40W6zt0PUgbgFFqiRiiytt2QEJXuWM48WeKtEuqO3QD9ppSg-xz6UFaj"
