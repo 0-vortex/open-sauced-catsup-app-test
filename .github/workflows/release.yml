@@ -74,6 +74,11 @@ jobs:
           GIT_COMMITTER_NAME: 0-vortex
           GIT_COMMITTER_EMAIL: 237133+0-vortex@users.noreply.github.com
 
+      - name: "🚀 deploy"
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+
   cleanup:
     name: Cleanup actions
     needs:

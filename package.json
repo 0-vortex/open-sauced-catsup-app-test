@@ -29,7 +29,6 @@
     "dev": "npm run wrangler -- dev",
     "build": "npm run wrangler -- build",
     "deploy": "npm run wrangler -- publish",
-    "test": "npx jest",
     "lint": "eslint --report-unused-disable-directives .",
     "format": "npm run lint -- --fix",
     "proxy": "npx smee-client -u https://smee.io/V3PArmChAYsYzpWZ"

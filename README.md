@@ -50,20 +50,6 @@ The preconfigured app is of almost no use to anyone as it can only be installed 
 
 It is quite possible that some of the secrets are rendered invalid as well. THey serve as placeholders and should be replaced with values provided by your testing app.
 
-### 🧪 Test
-
-For running the test suite, use the following command. Since the tests run in watch mode by default, some users may encounter errors about too many files being open. In this case, it may be beneficial to [install watchman](https://facebook.github.io/watchman/docs/install.html).
-
-```shell
-npm test
-```
-
-You can request a coverage report by running the following command:
-
-```shell
-npm run test:coverage
-```
-
 ## 📦 Deploy to production
 
 ### Cloudflare account
@@ -137,6 +123,12 @@ Open up a production real time log using:
 ```shell
 npm run wrangler -- tail
 ```
+
+### CI publish
+
+Create a new GitHub actions secrets named `CF_API_TOKEN`, get its value from Cloudflare's [create a new token](https://dash.cloudflare.com/profile/api-tokens) using the "Edit Cloudflare Workers" template.
+
+Push new code to the server, after a release the new code should be sent to the server and instantly propagate.
 
 ## 🤝 Contributing
 
