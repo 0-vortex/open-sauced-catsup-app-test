@@ -25,28 +25,26 @@
   "scripts": {
     "push": "npx @open-sauced/conventional-commit",
     "wrangler": "npx wrangler",
-    "start": "npm run wrangler -- dev",
+    "start": "npm run dev -- -e development",
+    "dev": "npm run wrangler -- dev",
     "build": "npm run wrangler -- build",
     "deploy": "npm run wrangler -- publish",
     "test": "npx jest",
     "lint": "eslint --report-unused-disable-directives .",
-    "format": "npm run lint -- --fix"
+    "format": "npm run lint -- --fix",
+    "proxy": "npx smee-client -u https://smee.io/V3PArmChAYsYzpWZ"
   },
   "dependencies": {
-    "@octokit/app": "^12.0.5",
-    "node-fetch": "^2.6.7",
-    "probot": "^12.2.1"
+    "@octokit/app": "^12.0.5"
   },
   "devDependencies": {
     "@open-sauced/check-engines": "^1.2.0",
     "@open-sauced/conventional-commit": "^1.0.1",
-    "dotenv": "^16.0.0",
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^26.1.0",
     "jest": "^27.5.1",
-    "nock": "^13.2.4",
     "smee-client": "^1.2.2"
   },
   "jest": {

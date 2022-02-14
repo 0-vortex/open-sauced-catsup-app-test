@@ -7,12 +7,19 @@ module.exports = {
     "airbnb-base/whitespace",
   ],
   env: {
-    node: true,
+    browser: true,
+    serviceworker: true,
     es2021: true,
     "jest/globals": true
   },
   globals: {
-    module: true
+    // secrets
+    APP_ID: "readonly",
+    APP_PK: "readonly",
+    CLIENT_ID: "readonly",
+    CLIENT_SECRET: "readonly",
+    WEBHOOK_SECRET: "readonly",
+    DISCORD_URL: "readonly",
   },
   parserOptions: {
     ecmaVersion: 13,
@@ -22,11 +29,17 @@ module.exports = {
     sourceType: "module",
     allowImportExportEverywhere: false
   },
+  ignorePatterns: [
+    'dist/',
+    'node_modules/',
+    'worker/',
+  ],
   rules: {
     "no-console": 0,
     "import/no-unresolved": 0,
     "import/extensions": 0,
     "no-restricted-syntax": 0,
+    "no-restricted-globals": 0,
     camelcase: [2, {
       allow: [
         "avatar_url"
