@@ -1,12 +1,12 @@
 {
   "name": "open-sauced-catsup-app-test",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "open-sauced-catsup-app-test",
-      "version": "0.0.0-development",
+      "version": "1.0.0",
       "license": "MIT",
       "dependencies": {
         "@octokit/app": "^12.0.5"
