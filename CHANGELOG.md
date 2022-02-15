@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.1.0](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.0.2...v1.1.0) (2022-02-15)
+
+
+### 📝 Documentation
+
+* add all workflow badges to the readme ([6bef49e](https://github.com/0-vortex/open-sauced-catsup-app-test/commit/6bef49e78fd1d60dc6f8aa34e26a2619535d3429))
+
 ### [1.0.2](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.0.1...v1.0.2) (2022-02-15)
 
 
