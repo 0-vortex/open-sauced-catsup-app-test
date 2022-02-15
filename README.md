@@ -6,6 +6,15 @@
 </div>
 <br>
 <p align="center">
+  <a href="https://github.com/0-vortex/open-sauced-catsup-app-test/actions/workflows/release.yml">
+    <img src="https://github.com/0-vortex/open-sauced-catsup-app-test/actions/workflows/release.yml/badge.svg" alt="Release" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/0-vortex/open-sauced-catsup-app-test/actions/workflows/compliance.yml">
+    <img src="https://github.com/0-vortex/open-sauced-catsup-app-test/actions/workflows/compliance.yml/badge.svg" alt="Compliance" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/0-vortex/open-sauced-catsup-app-test/actions/workflows/codeql-analysis.yml">
+    <img src="https://github.com/0-vortex/open-sauced-catsup-app-test/actions/workflows/codeql-analysis.yml/badge.svg" alt="CodeQL" style="max-width: 100%;">
+  </a>
   <img src="https://img.shields.io/github/languages/code-size/0-vortex/open-sauced-catsup-app-test" alt="GitHub code size in bytes">
   <img src="https://img.shields.io/github/commit-activity/w/0-vortex/open-sauced-catsup-app-test" alt="GitHub commit activity">
   <a href="https://github.com/0-vortex/open-sauced-catsup-app-test/issues">
