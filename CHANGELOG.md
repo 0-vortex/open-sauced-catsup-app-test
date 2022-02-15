@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.0.2](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.0.1...v1.0.2) (2022-02-15)
+
+
+### 🐛 Bug Fixes
+
+* correct diagram generation ([42d0723](https://github.com/0-vortex/open-sauced-catsup-app-test/commit/42d0723aa1f649a3721d9fd2acb92fc8b618bb89))
+
 ### [1.0.1](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.0.0...v1.0.1) (2022-02-15)
 
 
