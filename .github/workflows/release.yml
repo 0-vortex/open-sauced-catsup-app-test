@@ -42,7 +42,12 @@ jobs:
           output_file: "public/diagram.svg"
           should_push: false
           root_path: "src/"
-          artifact_name: "diagram"
+
+      - name: "📊 visualiser artifacts"
+        uses: actions/upload-artifact@v2
+        with:
+          name: diagram
+          path: public/diagram.svg
 
   release:
     environment:
@@ -59,12 +64,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: "♻️ clean up artifact paths"
+        run: |
+          rm -rf public/diagram.svg
+
       - name: "📂 download diagram artifacts"
-        if: needs.build.outputs.build-artifact
         uses: actions/download-artifact@v2
         with:
           name: diagram
-          path: .
+          path: public/
 
       - name: "🚀 release"
         id: semantic-release
