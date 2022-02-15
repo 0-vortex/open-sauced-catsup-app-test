@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.0.1](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.0.0...v1.0.1) (2022-02-15)
+
+
+### ⏩ Reverts
+
+* use experimental fixed publish action with updates software ([e2ab24b](https://github.com/0-vortex/open-sauced-catsup-app-test/commit/e2ab24bac80047a74d179b38318b1815b03c37af))
+
 ## 1.0.0 (2022-02-14)
 
 
