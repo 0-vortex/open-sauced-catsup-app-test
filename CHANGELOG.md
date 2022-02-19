@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.1.1](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.1.0...v1.1.1) (2022-02-19)
+
+
+### 🧑‍💻 Code Refactoring
+
+* update wrangler and switch dev env to miniflare ([3861a36](https://github.com/0-vortex/open-sauced-catsup-app-test/commit/3861a367ddd116042aa64150834cc8173c3892f8))
+
 ## [1.1.0](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.0.2...v1.1.0) (2022-02-15)
 
 
