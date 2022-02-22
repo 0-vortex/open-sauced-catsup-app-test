@@ -5,6 +5,18 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.1.2](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.1.1...v1.1.2) (2022-02-22)
+
+
+### 🐛 Bug Fixes
+
+* correct signature verification ([6d050d7](https://github.com/0-vortex/open-sauced-catsup-app-test/commit/6d050d7b84015439f42eb70b4318ed3bc89c47a5))
+
+
+### 🤖 Build System
+
+* secure deployment ([0899fce](https://github.com/0-vortex/open-sauced-catsup-app-test/commit/0899fcebc88a8a943cc667c8cc38eb1f68e5b8fc))
+
 ### [1.1.1](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.1.0...v1.1.1) (2022-02-19)
 
 
