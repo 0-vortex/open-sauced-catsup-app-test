@@ -20,12 +20,13 @@
     "url": "git+https://github.com/0-vortex/open-sauced-catsup-app-test.git"
   },
   "engines": {
-    "node": ">= 16"
+    "node": ">= 16.7.0",
+    "npm": ">= 8.0.0"
   },
   "scripts": {
     "push": "npx @open-sauced/conventional-commit",
     "wrangler": "npx wrangler",
-    "start": "npm run dev -- -e development",
+    "start": "npx wrangler@beta dev -l --env development --port 3000",
     "dev": "npm run wrangler -- dev",
     "build": "npm run wrangler -- build",
     "deploy": "npm run wrangler -- publish",
