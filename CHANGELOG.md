@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.1.3](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.1.2...v1.1.3) (2022-02-23)
+
+
+### 🧑‍💻 Code Refactoring
+
+* code split octokit and worker code ([8d24943](https://github.com/0-vortex/open-sauced-catsup-app-test/commit/8d2494301d85cc60c08c5cd8b34a0bcd2121208e))
+
 ### [1.1.2](https://github.com/0-vortex/open-sauced-catsup-app-test/compare/v1.1.1...v1.1.2) (2022-02-22)
 
 
